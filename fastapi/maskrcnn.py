@@ -93,21 +93,7 @@ class Segmentor:
         r.putdata(newPixels)
         return r
 
-"""
-image = Image.open(urllib.request.urlopen("https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/06/06/15/Chris-Pratt.jpg?w968h681"))
-image = np.array(image)
-image = image[:,:,::-1].copy()
-pred = Segmentor()
-output = pred.predict(image)
 
-final = pred.decompose(image,output)
-
-
-for pic in final:
-    print(pic)
-    final[pic].show()
-    input()
-"""
 
 
        
