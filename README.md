@@ -19,4 +19,4 @@ To run the app on your own device clone the repository, unzip fastapi/detectron2
 Visit http://localhost:8501. 
 
 # Credit
-In this project I use 'detectron2' library developed by facebookai team.
+In this project I use 'detectron2' library developed by Facebook AI Research team.
