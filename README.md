@@ -11,9 +11,12 @@ And the program outputs segmented instances as separate images
 
 # Running
 
-To run the app on your own device clone the repository, unzip fastapi/detectron2. Then in machine with Docker run commands:
+To run the app on your own device clone the repository, unzip fastapi/detectron2. Then in a machine with Docker run commands:
     
     docker-compose build
     docker-compose up
 
 Visit http://localhost:8501. 
+
+# Credit
+In this project I use 'detectron2' library developed by facebookai team.
